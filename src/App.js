@@ -3,10 +3,10 @@ import Meme from './components/Meme.js'
 
 function App() {
   return(
-    <container>
+    <div>
       < Header />
       < Meme />
-    </container>
+    </div>
   )
 }
 
