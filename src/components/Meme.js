@@ -26,7 +26,6 @@ function Meme() {
     }))
   }
 
-
   function handleChange(event) {
     const {name, value} = event.target
 
@@ -35,8 +34,6 @@ function Meme() {
       [name]: value
     }))
   }
-
-  console.log(meme)
 
   return(
     <main>
